@@ -1,0 +1,114 @@
+[
+  {
+    "id": "01",
+    "name": "Café",
+    "type": "breakfast",
+    "price": "6.00",
+    "quantity": 0
+  },
+  {
+    "id": "02",
+    "name": "Té",
+    "type": "breakfast",
+    "price": "5.00",
+    "quantity": 0
+  },
+  {
+    "id": "03",
+    "name": "Jugo de Frutas",
+    "type": "breakfast",
+    "price": "4.00",
+    "quantity": 0
+  },
+  {
+    "id": "04",
+    "name": "Pan c/huevo",
+    "type": "breakfast",
+    "price": "7.00",
+    "quantity": 0
+  },
+  {
+    "id": "05",
+    "name": "Pan c/mantequilla",
+    "type": "breakfast",
+    "price": "4.00",
+    "quantity": 0
+  },
+  {
+    "id": "06",
+    "name": "Pollo",
+    "type": "rest of day",
+    "price": "12.00",
+    "quantity": 0
+  },
+  {
+    "id": "07",
+    "name": "Carne",
+    "type": "rest of day",
+    "price": "16.00",
+    "quantity": 0
+  },
+  {
+    "id": "08",
+    "name": "Ensalada vegetariana",
+    "type": "rest of day",
+    "price": "14.00",
+    "quantity": 0
+  },
+  {
+    "id": "09",
+    "name": "Papas fritas",
+    "type": "rest of day",
+    "price": "9.00",
+    "quantity": 0
+  },
+  {
+    "id": "10",
+    "name": "Papas c/mayo",
+    "type": "rest of day",
+    "price": "9.00",
+    "quantity": 0
+  },
+  {
+    "id": "11",
+    "name": "Arroz",
+    "type": "rest of day",
+    "price": "8.00",
+    "quantity": 0
+  },
+  {
+    "id": "12",
+    "name": "Agua 500ml",
+    "type": "rest of day",
+    "price": "3.00",
+    "quantity": 0
+  },
+  {
+    "id": "13",
+    "name": "Bebida 500ml",
+    "type": "rest of day",
+    "price": "5.00",
+    "quantity": 0
+  },
+  {
+    "id": "14",
+    "name": "Jugo de frutas",
+    "type": "rest of day",
+    "price": "4.00",
+    "quantity": 0
+  },
+  {
+    "id": "15",
+    "name": "Queso",
+    "type": "breakfast" ,
+    "price": "1.00",
+    "quantity": 0
+  },
+  {
+    "id": "16",
+    "name": "Tocino",
+    "type": "breakfast" ,
+    "price": "1.00",
+    "quantity": 0
+  }
+]

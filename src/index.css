@@ -1,3 +1,6 @@
+/*Arreglos universales*/
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Fredoka:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,47 +8,95 @@
 
 }
 
+
+ @-webkit-keyframes rotate-vert-center{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}100%{-webkit-transform:rotateY(360deg);transform:rotateY(360deg)}}@keyframes rotate-vert-center{0%{-webkit-transform:rotateY(0);transform:rotateY(0)}100%{-webkit-transform:rotateY(360deg);transform:rotateY(360deg)}}
+
+/* cambios en el body*/
 body {
   background: linear-gradient(rgba(245, 199, 199, 0.61), rgba(212, 11, 11, 0.233)), url(/public/florRoja.jpg);
   background-size: cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
-  text-align: center;
+ 
 }
-
+/*tamaño de el logo de home nada más*/
+.logoH {
+  display: flex;
+  height: 450px;
+  width: 450px;
+}
+/*tamaño de el logo de todas las vistas*/
 .logo {
-  height: 350px;
-  width: 350px;
+  display: flex;
+  height: 300px;
+  width: 300px;
   margin-top: -100px;
-  margin-bottom: 50px;
-  margin-left: 190px;
-  margin-right: 150px;
-}
+  }
 
-.index {
+.home {
+  display: inline-block;
+  align-items: center;
   background-color: rgba(255, 240, 240, 0.575);
   border-radius: 10px;
   margin-left: 220px;
   margin-right: 220px;
   margin-bottom: 30px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: xx-large;
+  font-family: 'Crete Round', serif;
+  font-size: x-large;
 }
 
-.chef{
-  /* position: absolute;
-  z-index: 0;
-  margin-left: 30px; */
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+.btnHome{
+ display: flex;
+ justify-content: center;
 }
-.waiter {
-  /* position: absolute;
-  z-index: 1;
-  margin-left: -120px; */
+
+.waiter, .chef { 
   height: 100px;
   width: 100px;
-  border-radius: 50%;
+ -webkit-animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both;animation:rotate-vert-center .5s cubic-bezier(.455,.03,.515,.955) both} 
+
+.logW {
+  display: block;
+  justify-content: center;
+  background-color: rgba(228, 182, 186, 0.815);
+  padding: 20px;
+  margin-left: 220px ;
+  margin-right: 120px;
+}
+
+.arrow{
+ display: flex;
+
+}
+/*iconos de atrás y logOut*/
+.back, .btnLogOut {
+  height:80px ;
+  width: 80px;
+}
+.mesa{
+  display: flex;
+flex-direction:row;
+  height:100px;
+  width: 100px;
+}
+
+.done{
+  display: flex;
+  justify-content:end;
+  height: 80px;
+  width: 80px;
+}
+.ok{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.pedidos{
+height: 150px;
+width: 150px;
+display: block;
+justify-content: center;
 }

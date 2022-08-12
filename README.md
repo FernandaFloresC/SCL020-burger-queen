@@ -1,6 +1,5 @@
 # El Corrientazo
 
-
  Resumen del proyecto
 
 Un pequeño restaurante de comida simple y corriente, que está creciendo, necesita una

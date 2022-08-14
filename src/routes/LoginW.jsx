@@ -12,7 +12,7 @@ function LoginW() {
         </p>
        <form className='logW'>
           <input type="email" placeholder='email' />
-          <input type="password" placeholder='password'/><button><Link to="/ViewW">Inicia </Link> </button>
+          <input type="password" placeholder='password'/><button className='log'><Link to="/ViewW">Inicia </Link> </button>
           
         </form>
         

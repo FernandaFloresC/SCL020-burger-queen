@@ -17,7 +17,7 @@ function State() {
           <div className='estados'>
         <button><Link to="/"><img src="images/listo.png" className='ok'/></Link></button>
         <button><Link to="/"><img src="images/preparando.png" className='ok'/></Link></button>
-        <button><Link to="/"><img src="reloj.png" className='ok'/></Link></button>
+        <button><Link to="/"><img src="images/reloj.png" className='ok'/></Link></button>
         </div>
 
        </section>

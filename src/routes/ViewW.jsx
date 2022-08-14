@@ -1,7 +1,7 @@
 // Vista del Mesero
 import React from 'react';
 import {Link } from "react-router-dom";
-import dataMenu from 'dataMenu.json'
+// import dataMenu from 'dataMenu.json'
 
 function ViewW() {
   return (
@@ -39,15 +39,15 @@ function ViewW() {
 export default ViewW;
 
 
-const dataMenu = (options) => {
-  const breakfastType = context.data.filter((elem) => elem.type === options);
-  const restOfDayType = context.data.filter((elem) => elem.type === options);
+// const dataMenu = (options) => {
+//   const breakfastType = context.data.filter((elem) => elem.type === options);
+//   const restOfDayType = context.data.filter((elem) => elem.type === options);
   
-  if (breakfastType === 'breakfast') {
-    setMenu(breakfastType);
-  } else (restOfDayType === 'restOfDay') 
-  {
-    setMenu(restOfDayType);
-  } 
-  return dataMenu
-};
+//   if (breakfastType === 'breakfast') {
+//     setMenu(breakfastType);
+//   } else (restOfDayType === 'restOfDay') 
+//   {
+//     setMenu(restOfDayType);
+//   } 
+//   return dataMenu
+// };

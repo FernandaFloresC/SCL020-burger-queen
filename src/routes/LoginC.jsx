@@ -12,7 +12,7 @@ function LoginC() {
   
           <form className='logC'>
             <input type="email" placeholder='email' />
-            <input type="password" placeholder='password' /><button><Link to="/ViewC">Inicia </Link> </button>
+            <input type="password" placeholder='password' /><button className="log"><Link to="/ViewC">Inicia </Link> </button>
           </form>
         <footer>      
           <button><Link to="/"><img src="back.png" className='back'/></Link></button></footer>
